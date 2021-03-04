@@ -4,8 +4,8 @@
 # certbot certonly used for ssl certificate (for www.domain.com and domain.com)
 
 server {
-  listen 443 ssl;
-  listen [::]:443 ssl;
+  listen 443 ssl http2;
+  listen [::]:443 ssl http2;
 
   ssl_certificate           /etc/letsencrypt/live/domain.com/cert.pem;
   ssl_certificate_key       /etc/letsencrypt/live/domain.com/privkey.pem;
