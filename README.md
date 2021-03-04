@@ -1,2 +1,3 @@
-# server-configs
-Collection of useful server configs
+# Server config collection
+
+Collection of useful server configuration files for nginx and Apache
