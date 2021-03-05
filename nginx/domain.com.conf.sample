@@ -1,6 +1,6 @@
 # With this config http://, http://www and https://www are redirected to https://
 # Traffic is passed to localhost:port
-# IPv6 support
+# IPv6 and HTTP/2 support
 # certbot certonly used for ssl certificate (for www.domain.com and domain.com)
 
 server {
